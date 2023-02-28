@@ -17,7 +17,7 @@ and write them to the appropriate path in GCP, using inverted_index_gcp.py.
 3. queries_train.json - Given training set of queries, with the optimal retrieval results.
 Used for training and testing our retrieval engine.
 
-4. search_frontend.py - Used to create the server (flask RESTful API), receive queries from clients and provide the mose relevant answers,
+4. search_frontend.py - Used to create the server (flask RESTful API), receive queries from clients and provide the most relevant answers,
  using 6 - different search functions that use this fucntions:
    - tokenize_query.py - get_query_tokens
    - inverted_index_gcp.py - InvertedIndex.read_index
